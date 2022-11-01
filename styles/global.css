@@ -1,0 +1,22 @@
+html {
+	background-color: rgba(252, 74, 26, 0.85);
+
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.container > * {
+	background-color: rgba(255, 255, 255, 0.25);
+	border-radius: 3px;
+	border: 1px solid #fff;
+	color: #fff;
+	margin: 10px;
+	padding: 20px;
+	text-align: center;
+	transition: all 150ms ease;
+
+	cursor: pointer;
+}
+
+.container > *:hover {
+	background-color: rgba(255, 255, 255, 0.4);
+}
